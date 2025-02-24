@@ -53,8 +53,8 @@
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="ECA">PRINCIPAL <span class="sr-only">(current)</span></a>
-                </li>
+                  <a class="nav-link" href="{{ url('/') }}">PRINCIPAL <span class="sr-only">(current)</span></a>
+              </li>
                 <li class="nav-item">
                   <a class="nav-link" href="about">ACERCA DE  </a>
                 </li>

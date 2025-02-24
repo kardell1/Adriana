@@ -1,0 +1,69 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #004aad, #80d4ff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título */
+form h1 {
+    font-size: 1.8rem;
+    color: #004aad;
+    margin-bottom: 20px;
+}
+
+/* Entradas de texto */
+form p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #004aad;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #f1faff;
+}
+
+/* Botón */
+form input[type="submit"] {
+    background-color: #004aad;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #003380;
+}
+
+/* Animaciones adicionales */
+.animate__animated.animate__backInLeft {
+    animation-duration: 1s;
+}
